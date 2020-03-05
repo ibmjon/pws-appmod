@@ -1,0 +1,8 @@
+Instructions:
+
+Clone PWS to local machine - (https://github.com/WASdev/sample.plantsbywebsphere)
+run 'gradle war' to build war file
+copy war file into /tmp
+
+docker build -t plants
+docker run -p 9080:9080 plants
